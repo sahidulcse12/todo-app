@@ -66,7 +66,6 @@ addButton.addEventListener('click', function() {
                 let todo2 = todo.parentElement;
                 let todo3 = todo2.parentElement;
                 todo3.classList.add('fall');
-                console.log(todo3)
                 todo3.addEventListener('transitionend', function() {
                     todo3.remove();
                 })
